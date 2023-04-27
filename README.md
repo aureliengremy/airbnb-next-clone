@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <p align="center">Portfolio with NEXT.JS</p>
+  
+I build a Airbnb clone with NextJS 13 for practice.
 
-## Getting Started
+### Live: []()
 
-First, run the development server:
+## 🛠️ Tech Stack
+- [NextJS](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
+
+## Usage Instructions
+
+### Installing Dependencies
+```bash
+npm install
+```  
+### Development Script
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
+This script runs the development server, allowing users to view and test the application while it's under development.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build Script
+```bash
+npm run build
+```
+This script builds the application for production use. The generated files can be found in the build folder.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Preview Script
+```bash
+npm run preview
+```
+This script runs a preview server for the built application. It's used to verify the production files before deploying them.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
+## Contribution
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributions are welcome! If you wish to improve this application, please submit a pull request or contact the author.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🙇 Author
+#### Aurelien Gremy
+- Portfolio: [aureliengremy.com](https://aureliengremy.com/)
+- Twitter: [@AurelGy](https://twitter.com/AurelGy)
+- Github: [@aureliengremy](https://github.com/aureliengremy)
