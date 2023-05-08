@@ -1,7 +1,7 @@
 'use client';
 
 interface BtnProps {
-  label: string;
+  label: string | undefined;
   onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
   disabled?: boolean;
   outline?: boolean;
